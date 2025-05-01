@@ -1,0 +1,441 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b46969;
+    margin: 0;
+    padding: 20px;
+}
+h1{text-align: center;}
+ h2, h3, h4 {
+    color: #333;
+}
+
+#السياحة {
+    background-color: rgb(0, 217, 255);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+div10{        display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;}
+img {
+    max-width: 110%;
+    height:300PX;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgb(255, 0, 0);
+}
+
+
+
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="password"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+max-width: 500px;
+margin: 40px auto;
+padding: 20px;
+background-color: #f9f9f9;
+border-radius: 10px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-form fieldset {
+border: none;
+}
+
+.custom-form legend {
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 15px;
+text-align: center;
+}
+
+.custom-form label {
+display: block;
+margin-top: 15px;
+font-weight: bold;
+}
+
+.custom-form input[type="text"],
+.custom-form input[type="password"],
+.custom-form textarea,
+.custom-form select {
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 14px;
+}
+
+.custom-form input[type="radio"] {
+margin-left: 10px;
+}
+
+.custom-form input[type="submit"] {
+margin-top: 20px;
+background-color: #4285F4;
+color: white;
+border: none;
+padding: 12px 20px;
+border-radius: 6px;
+cursor: pointer;
+font-size: 16px;
+width: 100%;
+}
+
+.custom-form input[type="submit"]:hover {
+background-color: #3367d6;
+}
+max-width: 500px;
+margin: 40px auto;
+padding: 20px;
+background-color: #f9f9f9;
+border-radius: 10px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-form fieldset {
+border: none;
+}
+
+.custom-form legend {
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 15px;
+text-align: center;
+}
+
+.custom-form label {
+display: block;
+margin-top: 15px;
+font-weight: bold;
+}
+
+.custom-form input[type="text"],
+.custom-form input[type="password"],
+.custom-form textarea,
+.custom-form select {
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 14px;
+}
+
+.custom-form input[type="radio"] {
+margin-left: 10px;
+}
+
+.custom-form input[type="submit"] {
+margin-top: 20px;
+background-color: #4285F4;
+color: white;
+border: none;
+padding: 12px 20px;
+border-radius: 6px;
+cursor: pointer;
+font-size: 16px;
+width: 100%;
+}
+
+.custom-form input[type="submit"]:hover {
+background-color: #3367d6;
+}
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    margin: 20px;
+    background-color:rgb(75, 69, 67);
+  }
+
+  #header {
+    background-color: #f3f3f3;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .tourism-section {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 0;
+    text-align: center;
+  }
+
+  .sub {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+  }
+
+  table {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+
+  th, td {
+    padding: 10px;
+  }
+
+  fieldset {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  textarea,
+  select {
+    margin: 10px 0;
+    padding: 5px;
+    width: 250px;
+  }
+
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 16px; 
+    transition: background-color 0.3s;}
+    a {
+    color: #007BFF; /* لون الروابط */
+    text-decoration: none; /* إزالة التسطير الافتراضي */
+    transition: color 0.3s ease; /* تأثير انتقال سلس */
+  }
+
+  a:hover {
+    color: #0056b3; /* تغيير اللون عند التمرير */
+    text-decoration: underline; /* إضافة تسطير عند التمرير */
+  }
+
+  a:visited {
+    color: #ffffff; /* لون الروابط التي تم زيارتها */
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #af7a7a;
+}
+#home {
+    background-color: brown;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.sub {
+    background-color: darksalmon; 
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+button {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+ul, ol {
+    margin: 20px;
+    padding: 0;
+}
+div3{
+display:flex;
+justify-content:space-around;
+margin-left: 20px;
+}
+div3 img{
+    height: 400px;
+
+}
+
+}
+div5{
+    display: flex;
+}
+div6{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+
+}
+div6 img{
+    height: 400px;
+}
+img{
+    height: 300px;
+}
+h1{
+    text-align: center;
+    margin-left: 400px;
+    color: white;
+}
+div5 img{
+width: 50px;
+height: 50px;
+}
+.card{
+    width: 400px;
+    height: 520px;
+    background-color: rgb(23, 27, 22);
+    color: white;
+}
+body{
+    background-color: rgb(162, 153, 172);
+}
+div7{
+    color: rgb(255, 255, 255);
+    {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+    }
+    
+
+    
+    form {
+        background: #52596e;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        max-width: 500px;
+        margin: auto;
+    }
+    
+    fieldset {
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    legend {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        color: #ffffff;
+    }
+    
+    div {
+        margin-bottom: 15px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #ffffff;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    textarea,
+    select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        transition: border-color 0.3s;
+    }
+    
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="password"]:focus,
+    textarea:focus,
+    select:focus {
+        border-color: #fefefe;
+        outline: none;
+    }
+    
+    input[type="radio"] {
+        margin-right: 5px;
+    }
+    
+    input[type="submit"] {
+        background-color: #000000;
+        color: rgb(0, 102, 255);
+        border: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1em;
+        transition: background-color 0.3s;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #000000;
+    }
+
+    .video-container {
+        display: flex;
+        justify-content: center;
+        margin: 30px 0;
+      }
+  
+      .video-container iframe {
+        width: 560px;
+        height: 315px;
+        border: none;
+      }
